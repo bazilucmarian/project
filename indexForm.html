@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style-form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1" id="box1">
+            <div class="box1-content">
+                <img src="/imagini/register.png">
+                <h1>Apasa butonul pentru</h1>
+
+
+                <button id="btn1" class="button-1">Creare cont</button> </br>
+                <button id="btn2" class="button-2">Logare</button>
+            </div>
+
+        </div>
+        <div class="box2" id="box2">
+            <!-- in acest div se afla formularul -->
+            <div class="login-form">
+                <form>
+                    <h1>Formular Login</h1>
+                    </br></br>
+                    <input type="email" id="logEmail" class="input-field" placeholder="Introduceti email"
+                        required></br></br>
+                    <input type="password" id="logPass" class="input-field" placeholder="Introduceti parola" required>
+                    </br></br>
+                    <button id="logBtn" class="login-button">Autentificre</button>
+                </form>
+            </div>
+
+            <!--  sign up form -->
+
+            <div class="signup-form">
+                <form novalidate id="myForm">
+                    <h1>Formular Inregistrare</h1>
+                    </br></br>
+                    <div>
+                        <span class="helper-text"></span>
+                        <input type="text" class="input-field" id="firstName" placeholder="Nume">
+                        </br></br>
+                    </div>
+                    <div>
+
+                        <span class="helper-text"></span>
+                        <input type="text" class="input-field" id="lastName" placeholder="Prenume"></br></br>
+
+                    </div>
+                    <div>
+                        <span class="helper-text"></span>
+                        <input type="email" class="input-field" id='email' placeholder="Introduceti email"></br></br>
+
+                    </div>
+                    <div>
+                        <span class="helper-text"></span>
+                        <input type="password" class="input-field" id="password"
+                            placeholder="Introduceti parola"></br></br>
+                    </div>
+                    <div>
+
+                        <span class="helper-text"></span>
+                        <input type="password" class="input-field" id="passwordConfirm"
+                            placeholder="Confirmati parola"></br></br>
+                        </br></br>
+                    </div>
+                    <button class="signup-button" id="inregistrare">Inregistrare</button>
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="/js/form.js"></script>
+</body>
+
+</html>

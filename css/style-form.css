@@ -1,0 +1,181 @@
+
+*{
+    margin:0!important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 800px;
+    height:70vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:5px;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.4);
+
+    
+}
+.box1{
+    background-color:#ece1b6;
+}
+.box1-content{
+    text-align: center;
+    margin-top:30%!important;
+}
+.box1-content img{
+    width: 100px;
+    height: 100px;
+    
+   
+}
+.box1-content h1{
+    color:black;
+    font-size:20px;
+    font-weight: lighter;
+    padding:50px;
+    letter-spacing: 2px;
+    font-family: "Larsseit";
+    text-transform: uppercase;
+}
+.button-1{
+    border:none;
+    font-size:15px;
+    font-family:"Larsseit";
+    padding:10px;
+    width: 150px;
+    border-radius:5px;
+    color:black;
+    background-color:darkkhaki;
+    outline:none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    margin:0 auto!important;
+    margin-top: -40px!important;
+  
+    
+}
+
+.button-2{
+    border:none;
+    font-size:15px;
+    font-family:"Larsseit";
+    padding:10px;
+    width: 150px;
+    border-radius:5px;
+    color:black;
+    background-color:#FECEAB;
+    outline:none;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    position:absolute!important;
+    left:60px;
+    top:376px;
+    display:none;
+    margin-top:-60px!important;
+  
+}
+.login-form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    
+}
+.login-form h1{
+    color:black;
+    font-size:20px;
+    font-weight: lighter;
+    padding:10px;
+    letter-spacing: 2px;
+    font-family: "Larsseit";
+    text-transform: uppercase;
+}
+.input-field{
+    font-size: 16px;
+    padding:10px;
+    border:1px solid black;
+    /* border-radius:5px; */
+    outline:none;
+    width:250px;
+    background-color: #f7f6f2;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    
+}
+.login-button{
+    font-size: 16px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    width: 250px;
+    background-color:#ece1b6;
+    cursor: pointer;
+    font-family: "Larsseit";
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+.box2{
+   border:5px solid#ece1b6;
+   background-color:#f7f6f2;
+   position: relative;
+}
+
+.helper-text{
+    font-size: 12px;
+    margin-top:20px;
+    position:absolute;
+}
+
+/* sign up form */
+.signup-form{
+    position: absolute!important;
+    /* /* top:85px; */
+    left:135px;
+     
+
+  
+    display: flex!important;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+   
+    
+    
+}
+.signup-form h1{
+    color:black;
+    font-size:20px;
+    font-weight: lighter;
+    padding:10px;
+    letter-spacing: 2px;
+    font-family: "Larsseit";
+    text-transform: uppercase;
+}
+.signup-button{
+font-size: 16px;
+padding:10px;
+border:none;
+border-radius:5px;
+outline:none;
+width: 250px;
+background-color:#9DE0AD;
+cursor: pointer;
+font-family: "Larsseit";
+text-transform: uppercase;
+font-weight: lighter;
+}
